@@ -1,0 +1,144 @@
+body{
+    background-image: url("https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com//content/02/76/ec7426e144b5adb8c9f85d0f0327/2025-wfm-cen-feba-se-gameday-web-homepage-ccoverlay-2160x1296-resized._TTW_._CR0,0,2160,1296_._SR1500,900_._QL100_.jpg");
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%; */
+}
+
+#app {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.inventory-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #145a32;
+    align-items: center;
+    border-radius: 10px;
+    width: 75%;
+
+}
+
+.cart-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 20px;
+    padding: 20px;
+    border: 5px solid #0e6655;
+    border-radius: 10px;
+
+}
+.cart-wrapper{
+    display: flex;
+    flex-direction: column;
+    border-bottom:  50px;
+}
+
+.checkout-btn {
+    transition-duration: 0.4s;
+    border: 2px solid #04AA6D;
+    background-color: #abebc6;
+    padding: 10px 24px;
+    border-radius: 8px;
+    margin-left: 30px;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #145a32; /* Green */
+    color: white;
+  }
+
+  .checkout-btn {
+    transition-duration: 0.4s;
+    border: 2px solid #04AA6D;
+    background-color: white;
+    padding: 10px 24px;
+    border-radius: 8px;
+    margin-left: 30px;
+  }
+  
+  .button {
+    transition-duration: 0.4s;
+    border: 2px solid white;
+    background-color: #abebc6;
+    padding: 10px 24px;
+    border-radius: 8px;
+    margin-left: 30px;
+  }
+  
+  .button:hover {
+    background-color: #145a32; 
+    color: white;
+  }
+
+  .white-font{
+    color: white;
+    font-size: 45px;
+  }
+
+  .white-content{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  .inventory-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    text-align: center; 
+}
+  .inventory-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+  .cart-list li{
+    margin: 5px;
+    border: 2px solid #145a32;
+    border-radius: 8px;
+    padding: 10px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .cart-list li span{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 5px;
+    padding-right: 15px;
+  }
+  .counter {
+    display: flex;
+    gap: 5px;
+    font-size: 10px;
+}
+
+.inventory-img {
+  width: 100px; 
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+margin-bottom: 10px;
+
+}

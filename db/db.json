@@ -1,0 +1,59 @@
+{
+  "cart": [
+    {
+      "id": 6,
+      "content": "Avocado",
+      "amount": 2
+    }
+  ],
+  "inventory": [
+    {
+      "content": "Apple",
+      "id": 1,
+      "amount": 2,
+      "image": "image/apple.JPG"
+    },
+    {
+      "content": "Cheese",
+      "id": 2,
+      "amount": 0,
+      "image": "image/cheese.JPG"
+    },
+    {
+      "content": "Soda",
+      "id": 3,
+      "amount": 0,
+      "image": "image/soda.JPG"
+    },
+    {
+      "content": "Ribs",
+      "id": 4,
+      "amount": 1,
+      "image": "image/Ribs.JPG"
+    },
+    {
+      "content": "Shrimp",
+      "id": 5,
+      "amount": 3,
+      "image": "image/Shrimp.JPG"
+    },
+    {
+      "content": "Avocado",
+      "id": 6,
+      "amount": 0,
+      "image": "image/avo.JPG"
+    },
+    {
+      "content": "Cherries",
+      "id": 8,
+      "amount": 5,
+      "image": "image/Cherries.JPG"
+    },
+    {
+      "content": "Blueberries",
+      "id": 7,
+      "amount": 7,
+      "image": "image/blueb.JPG"
+    }
+  ]
+}

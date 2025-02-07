@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+    <title>Fresh Grocery</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="inventory-container">
+        <h1 class="white-font">Inventory</h1>
+        <!-- <form>
+          <input class="inventory-input" />
+          <button class="inventory-add-btn button">Add Inventory</button>
+        </form> -->
+        <ul class="inventory-list">
+          <li>
+            <span class="white-content">Apple</span>
+          <button class="add-cart-btn ">Add to Cart</button>
+        </li>
+        <li>
+          <span class="white-content">Strawberries</span>
+        <button class="add-cart-btn ">Add to Cart</button>
+      </li>
+      <li>
+        <span class="white-content">Lobster Tails</span>
+      <button class="add-cart-btn ">Add to Cart</button>
+    </li>
+    <li>
+      <span class="white-content">Chicken Wings</span>
+    <button class="add-cart-btn ">Add to Cart</button>
+  </li>
+        </ul>
+      </div>
+      <div class="cart-container">
+        <h1>Shopping Cart</h1>
+        <div class="cart-wrapper">
+          <div>
+            <ul class="cart-list">
+              <li id="1">
+                <span>Chicken Wings</span>
+                <div class="counter">
+                  <button onclick="decrease()">-</button>
+                  <span id="count">1</span>
+                  <button onclick="increase()">+</button>
+              </div>
+                <button class="cart_delete_btn">Delete</button>
+              </li>
+              <li id="1">
+                <span>Lobster Tails
+                </span>
+                <div class="counter">
+                  <button class="decrease-btn">-</button>
+                  <span id="count">1</span>
+                  <button class="increase-btn">+</button>
+              </div>
+                <button class="cart_delete_btn">Delete</button>
+              </li>
+              <li id="1">
+                <span>Apple</span>
+                <div class="counter">
+                  <button onclick="decrease()">-</button>
+                  <span id="count">1</span>
+                  <button onclick="increase()">+</button>
+              </div>
+                <button class="cart_delete_btn">Delete</button>
+              </li>
+            </ul>
+          </div>
+
+          <button class="checkout-btn">checkout</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="main.css" />
+  </body>
+</html>
